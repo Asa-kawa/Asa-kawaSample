@@ -3,12 +3,11 @@ document.getElementById("description").addEventListener("click", () => {
 });
 
 document.getElementById("close").addEventListener("click", () => {
-  const result = confirm("本当に閉じていいですか？");
-  if (result) {
-    window.close();
-  } else {
-    alert("キャンセルしました")
+  if (!confirm("本当に閉じていいですか？") || !confirm("本当の本当に閉じていいですか？")) {
+    alert("キャンセルしました");
+    return;
   }
+  window.close();
 });
 
 document.getElementById("index").addEventListener("click", () => {
