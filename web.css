@@ -10,20 +10,3 @@
     font-size: larger;
     margin: 10px 0px 10px 0px;
 }
-
-#aiueo {
-    font-size: 100px;
-}
-
-#aiueo.anim-active {
-    animation-name: animation;
-    animation-duration: 1ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes animation {
-    100% {
-        transform: translateX(1000px);
-    }
-}
