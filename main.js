@@ -13,6 +13,11 @@ document.getElementById("close").addEventListener("click", () => {
   if (!window.closed) {
     alert("閉じるのに失敗しました");
   }
+
+  alert(window.top === window)
+  alert(history.length)
+
+  
 });
 
 document.getElementById("index").addEventListener("click", () => {
