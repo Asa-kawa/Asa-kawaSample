@@ -7,7 +7,12 @@ document.getElementById("close").addEventListener("click", () => {
     alert("キャンセルしました");
     return;
   }
+
   window.close();
+
+  if (!window.closed) {
+    alert("閉じるのに失敗しました");
+  }
 });
 
 document.getElementById("index").addEventListener("click", () => {
