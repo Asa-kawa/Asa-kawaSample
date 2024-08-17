@@ -7,5 +7,5 @@ document.getElementById("index").addEventListener("click", () => {
 });
 
 document.getElementById("???").addEventListener("click", () => {
-  location.href = "https://github.com/Asa-kawa/Asa-kawaPassword";
+  location.href = "https://asa-kawa.github.io/Asa-kawaPassword/";
 });
