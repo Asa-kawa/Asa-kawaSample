@@ -5,3 +5,7 @@ document.getElementById("description").addEventListener("click", () => {
 document.getElementById("index").addEventListener("click", () => {
   location.href = "https://asa-kawa.github.io/Asa-kawaIndex/";
 });
+
+document.getElementById("???").addEventListener("click", () => {
+
+});
