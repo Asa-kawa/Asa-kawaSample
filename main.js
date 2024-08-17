@@ -6,6 +6,6 @@ document.getElementById("index").addEventListener("click", () => {
   location.href = "https://asa-kawa.github.io/Asa-kawaIndex/";
 });
 
-document.getElementById("???").addEventListener("click", () => {
+document.getElementById("password").addEventListener("click", () => {
   location.href = "https://asa-kawa.github.io/Asa-kawaPassword/";
 });
