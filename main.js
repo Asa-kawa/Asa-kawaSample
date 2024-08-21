@@ -7,5 +7,5 @@ document.getElementById("index").addEventListener("click", () => {
 });
 
 document.getElementById("website-list-button").addEventListener("click", () => {
-  location.href = "https://asa-kawa.github.io/Asa-kawaWebsitelist/";
+  location.href = "https://www.youtube.com/";
 });
