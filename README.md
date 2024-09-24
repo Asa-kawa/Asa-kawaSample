@@ -1,5 +1,6 @@
 ## html
-`<!DOCTYPE html>
+```bash
+<!DOCTYPE html>
   <html lang="jp">
     <head>
       <link rel="stylesheet" href="web.css">
@@ -12,5 +13,6 @@
       </main>
       <script src="main.js"></script>
     </body>
-  </html>`
-  これは「テキスト」と出ます。
+  </html>
+```
+これは`「テキスト」`と出ます。
